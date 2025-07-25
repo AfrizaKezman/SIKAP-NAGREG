@@ -5,7 +5,6 @@ import Pegawai from "@/models/Pegawai";
 import NaikGaji from "@/models/NaikGaji";
 import NaikPangkat from "@/models/NaikPangkat";
 import Riwayat from "@/models/Riwayat";
-import XLSX from "xlsx";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
